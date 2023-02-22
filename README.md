@@ -12,6 +12,7 @@ To run this app, you will need to have Python installed on your system, along wi
 - uvicorn
 - opencv-python
 - numpy
+- ultralytics
 
 Once you have installed these packages, you can run the app by executing the following command in the terminal:
 
