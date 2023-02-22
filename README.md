@@ -24,6 +24,8 @@ This will start the app and you can access the output by visiting http://localho
 ### Usage
 To use the app, simply upload a video or live stream and the app will count the number of people in real-time. The app also provides an option to download the video with the bounding boxes drawn around the detected objects.
 
+You can ulso use this app with rtsp url just pass rtsp url to videoCapture ()
+
 ### Extending the App
 This app can be easily extended to detect and count other objects by training the YOLOv8 model on the desired object. You can find more information on how to do this in the YOLOv8 repository.
 
