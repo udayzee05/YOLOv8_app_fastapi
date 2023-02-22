@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Stream</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            color: #333333;
+            text-align: center;
+            margin-top: 30px;
+        }
+        #video_container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+        #video_feed {
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="video_container">
+        <h1>Video Stream</h1>
+        <video autoplay="autoplay" id="video_feed">
+            <source src="/video_feed" type="multipart/x-mixed-replace; boundary=frame">
+        </video>
+    </div>
+</body>
+</html>
