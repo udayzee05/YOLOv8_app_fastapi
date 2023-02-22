@@ -17,7 +17,7 @@ To run this app, you will need to have Python installed on your system, along wi
 Once you have installed these packages, you can run the app by executing the following command in the terminal:
 
 ```bash
-uvicorn app.main:app --reload
+python main.py
 ```
 This will start the app and you can access the output by visiting http://localhost:8000 in your web browser.
 
